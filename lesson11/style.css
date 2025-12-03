@@ -1,0 +1,43 @@
+body {
+  background-color: #f7f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+} /*Yes the background is a different shade of white*/
+img {
+  box-shadow: 2px 2px 2px #777;
+  width: 18%;
+  margin-right: 5px;
+  transition: 1s;
+}
+img:hover{
+  opacity:100%
+}
+h1 {
+  background-color: rgb(131, 187, 131);
+  /*background-color: rgb(33,37,41);*/
+  color: rgb(51, 54, 58);
+  border-radius: 5px;
+  padding: 1rem;
+  padding-left: 50px;
+  margin-block-end: 3rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px){
+  img{
+    width: 40%;
+    margin-bottom: 1.5rem;
+  }
+  h1{
+    text-align: center;
+  }
+}
+
+
+/*Nice little function for indents*/
+.tab{
+text-indent: 30px;
+} 
+.secret{
+  color: black;
+  text-decoration: none;
+}

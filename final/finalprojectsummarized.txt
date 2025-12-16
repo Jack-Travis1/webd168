@@ -1,0 +1,8 @@
+Objective: Create a professional portfolio website showcasing your future or current occupation 
+using modern web development practices.
+
+Requirements:
+Have three pages (50 words each): 1. Home page  2. Portfolio page  3. Contact page
+Use bootstrap or tailwind
+Make it responsive
+Use the accessibility checks

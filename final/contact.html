@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Contact page for my final"> <!-- Update this content-->
+    <meta name="author" content="Jack Travis">
+    <title>Final Contact - Jack Travis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-md-5 rounded-1" id="mainNav">
+        <div class="container px-4">
+            <a href="index.html" class=" navbar-brand fs-1 text-light p-1 border border-3 border-warning">Aztec Tropical Fish</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fs-5" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="port.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <Main>
+        <div class="container bg-light rounded-2 shadow-sm py-2 my-3 text-center">
+            Want to get in contact with me? Have any business inquiries? I can also answer questions about the type of fish for sale as well general questions on keeping freshwater fish. Fill out all of the form below and you can expect a response within two business days.
+        </div>
+        <div class="container px-4 py-3">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <form name="subform" method="post" action="submit.html">
+                        <div class="row g-3 mb-3">
+                            <div class="col-sm-6">
+                                <label for="fname" class="form-label">First Name:</label>
+                                <input type="text" class="form-control" placeholder="First name" id="fname" required>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="lname" class="form-label">Last Name:</label>
+                                <input type="text" class="form-control" placeholder="Last name" id="lname" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="textbox" class="form-label">What do you want to say?:</label>
+                            <textarea class="form-control" id="textbox" rows="3" maxlength="200" required aria-label="Type your message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </Main>
+
+    <footer class="py-3 bg-dark fixed-bottom">
+        <div class="container px-4">
+            <p class="m-0 text-center text-white"> Copyright &copy; Jack Travis 2025</p>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
